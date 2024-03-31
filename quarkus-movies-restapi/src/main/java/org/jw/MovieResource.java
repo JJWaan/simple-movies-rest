@@ -4,7 +4,6 @@ import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
-import javax.print.attribute.standard.Media;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -67,4 +66,4 @@ public class MovieResource {
         }
         return Response.status(Response.Status.BAD_REQUEST).build();
     }
-}
+ }
